@@ -6,14 +6,16 @@
 		<meta name="keywords" content="HTML, JavaScript">
 		<meta name="author" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Ascending in 3 numbers</title>
+		<title>Ascending 3 numbers</title>
 	
 	</head>
 	
 	<body>
 		<script>
 			
-			var a=3; b=2; c=1;
+			var a=parseInt(prompt("Enter the value of a"));
+			var b=parseInt(prompt("Enter the value of b"));
+			var c=parseInt(prompt("Enter the value of c"));
 			if(a<b && a<c){
 				if(b<c){
 					console.log(a,b,c);
@@ -35,7 +37,7 @@
 					console.log(c,b,a);
 				}
 				else{
-					console.log(b,c,a);
+					console.log(c,a,b);
 				}
 			}
 			
